@@ -1,6 +1,151 @@
 body {
+    background: #FCFCFD;
     margin: 0;
     padding: 0;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 80px;
+    width: 1440px;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    display: flex;
+}
+
+.symbol {
+    display: flex;
+    align-items: center;
+}
+
+.symbol img {
+    width: 32px;
+    height: 32px;
+}
+
+.crypter {
+    padding-right: 32px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #23262F;
+    border-right: 2px solid #E6E8EC;
+}
+
+.links {
+    margin-left: 32px;
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.discover {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #23262F;
+}
+
+.how_it {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777E91;
+}
+
+.search {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+    
+color: #777E91;
+
+}
+
+.search input {
+    width: 256px;
+    height: 40px;
+    margin-left: 185px;
+    border: 2px solid #E6E8EC;
+    border-radius: 8px;
+}
+
+.search_img {
+    padding-top: 11px;
+    position: absolute;
+    left: 60%;
+}
+
+.buttons {
+    display: flex;
+}
+
+.notification {
+    cursor: pointer;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.buttons_nav {
+    display: flex;
+    height: 40px;
+    gap: 12px;
+}
+
+.upload {
+    width: 80px;
+    height: 40px;
+    background: #3772FF;
+    border-radius: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FCFCFD;
+    border: none;
+    cursor: pointer;
+}
+
+.connect {
+    background-color: #FCFCFD;
+    box-sizing: border-box;
+    width: 137px;
+    height: 40px;
+    border: 2px solid #E6E8EC;
+    border-radius: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #23262F;
+    cursor: pointer;
+
 }
